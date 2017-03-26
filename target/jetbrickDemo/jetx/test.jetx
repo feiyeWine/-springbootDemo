@@ -1,0 +1,25 @@
+<html>
+    <body>
+
+
+        <h3>这是第一个jetx例子<h3>
+        <table border="2px" width="300px">
+
+            <tr>
+                <td>姓名</td>
+                <td>性别</td>
+                <td>年龄</td>
+            </tr>
+            #for(Users user:users.getUsers())
+             <tr>
+                 <td>${user.name}</td>
+                 <td>${user.sex}</td>
+                 <td>${user.age}</td>
+              </tr>
+            #end
+        #--
+
+            #end
+        --#
+    </body>
+</html>
